@@ -6,7 +6,7 @@ $factory->define(App\Employee::class, function (Faker $faker) {
     return [
         'name' => $faker->firstNameMale,
         'middle_name' => $faker->firstNameMale,
-        'lastname' => $faker->lastName,
+        'last_name' => $faker->lastName,
         'position' => $faker->jobTitle,
         'hire_date' => $faker->dateTime,
         'salary' => $faker->numberBetween($min = 3000, $max = 15000),
